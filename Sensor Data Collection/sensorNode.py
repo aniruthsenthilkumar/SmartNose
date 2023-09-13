@@ -9,3 +9,5 @@ print('Temperature: {} degrees C'.format(sensor.temperature))
 print('Gas: {} ohms'.format(sensor.gas))
 print('Humidity: {}%'.format(sensor.humidity))
 print('Pressure: {}hPa'.format(sensor.pressure))
+
+# can edit on r pi
