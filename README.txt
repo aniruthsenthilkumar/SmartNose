@@ -7,3 +7,5 @@ Lila is super cool
 sophia I hope this works for you
 
 Sophia is here now
+
+Can access from Raspberry Pi
