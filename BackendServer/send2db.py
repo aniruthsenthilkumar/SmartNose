@@ -8,7 +8,7 @@ try:
     sqlite_insert_query = """INSERT INTO BME688
                           (Temperature, Humidity, Gas, Pressure) 
                            VALUES 
-                          (22, 23, 21, 212)"""
+                          (1, 2, 3, 4)"""
 
     count = cursor.execute(sqlite_insert_query)
     sqliteConnection.commit()
