@@ -7,10 +7,10 @@ i2c = board.I2C()
 sensor = adafruit_bme680.Adafruit_BME680_I2C(i2c)
 sensor.seaLevelhPa = 1011.7
 
-# print('Temperature: {} degrees C'.format(sensor.temperature))
-# print('Gas: {} ohms'.format(sensor.gas))
-# print('Humidity: {}%'.format(sensor.humidity))
-# print('Pressure: {}hPa'.format(sensor.pressure))
+#print('Temperature: {} degrees C'.format(sensor.temperature))
+#print('Gas: {} ohms'.format(sensor.gas))
+#print('Humidity: {}%'.format(sensor.humidity))
+#print('Pressure: {}hPa'.format(sensor.pressure))
 
 
 def get_sensor_data():
@@ -27,7 +27,7 @@ def get_sensor_data():
         sleep(10)
 
         try:
-            sqliteConnection = sqlite3.connect('localDatabase.db')
+            sqliteConnection = sqlite3.connect('/home/capstone2023/SmartNose/SensorDataCollection/localDatabase.db')
             cursor = sqliteConnection.cursor()
             print("Successfully Connected to SQLite")
 
