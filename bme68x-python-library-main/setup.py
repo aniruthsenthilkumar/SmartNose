@@ -4,6 +4,7 @@ from pathlib import Path
 BSEC = True
 # test
 # test 2
+# test 3
 if BSEC:
     ext_comp_args = ['-D BSEC']
     libs = ['pthread', 'm', 'rt', 'algobsec']
