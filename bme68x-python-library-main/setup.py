@@ -2,7 +2,7 @@ from setuptools import setup, Extension, find_packages
 from pathlib import Path
 
 BSEC = True
-
+# test
 if BSEC:
     ext_comp_args = ['-D BSEC']
     libs = ['pthread', 'm', 'rt', 'algobsec']
